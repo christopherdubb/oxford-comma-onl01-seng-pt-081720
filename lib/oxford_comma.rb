@@ -5,7 +5,8 @@ elsif array.length ==2
   array.join(" and ")
 else
   array.join(", ")
-  
+  last = ", and " << array.pop
+array.join(", ") << last
 end
   
 
